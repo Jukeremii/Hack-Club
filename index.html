@@ -9,14 +9,22 @@ body {
     color: blue; 
 }
 img{
-width: 200px;
-length: 279px;
+width: 150px;
+length: 130px;
 }
 button{
 width:100px;
 height:61.8px;
 background: blue;
+animation-name: colourChange;
+animation-duration:3s;
+	animation-iteration-count: 3;
 }
+	@keyframes colourChange {
+		from {background:#a83232;}
+		to {background:#329ea8;}
+
+	}
 </style> 
 </head>
 <body>
